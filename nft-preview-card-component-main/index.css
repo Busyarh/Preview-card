@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+form{
+    background-color: hsl(216, 42%, 15%);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 80%;
+    width: 26%;
+    border-radius: 1em;
+    padding-top: 1em;
+    padding-left: 1.7em;
+    padding-right: 1em;
+}
+
+.Equilibrium{
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+
+h3{
+    color: white;
+    margin-bottom: 14px;
+
+}
+
+p{
+    color: hsla(0, 1%, 49%, 0.911);
+    line-height: 22px;
+    font-size: 100%;
+    margin-bottom: 1em;
+}
+
+
+.avatar{
+    height: 2em;
+    width: 2em;
+    margin-top: 1em;
+    gap: 2em;
+}
+
+ul{
+    display: flex;
+    gap: 5.5em;
+    margin-bottom: 1em;
+}
+
+li{
+    list-style: none;
+}
+
+.ethereum{
+    color: hsl(178, 100%, 50%);
+    font-size: 120%;
+}
+
+.time{
+    color: hsla(0, 1%, 49%, 0.911);
+    font-size: 100%;
+    font-weight: lighter;
+}
+
+hr{
+    border: 0;
+    border-top: solid 0.1px;
+    width: 95%;
+    color: hsla(0, 1%, 49%, 0.911);
+}
+
+.Name{
+    color: hsla(0, 1%, 49%, 0.911);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1em;
+    padding-top: 1em;
+    gap: 8px;
+}
+
+.Jules{
+    gap: .6 em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name2{
+    color: white;
+}
+
